@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/** Nav Bar - 1**/
+
+.navbar-1 {
+    background-color: black;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-logo {
+    height: 35px;
+    width: 35px;
+    background-image: url(SpotifyLogo.png);
+    background-size: cover;
+    color: white;
+    margin-left: 20px;
+}
+
+/** Home button **/
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.circle i {
+    padding: 11px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/** Search **/
+
+
+.nav-search {
+    display: flex;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 500px;
+    width: 500px;
+    height: 50px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.search-icon {
+    background-color: #1f1f1f;
+    height: 50px;
+    width: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    transition: background-color 0.3s ease;
+}
+
+.search-icon i {
+    font-size: 1.3rem;
+}
+
+.nav-search input {
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 750;
+    width: 100%;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+
+.nav-search input:focus {
+    outline: none;
+}
+
+/** Nav Bar - 2 **/
+
+.navbar-2 {
+    display: flex;
+    color: rgb(179, 179, 179);
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar-2 a {
+    transition: all 0.2s ease-in;
+}
+
+.navbar-2 a:hover {
+    color: white;
+    font-size: 1.05rem;
+}
+
+.nav-Login {
+    height: 50px;
+    width: 110px;
+    background-color: white;
+    font-size: 1.1rem;
+    border-radius: 500px;
+    font-weight: 600;
+    color: #1f1f1f;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+    
+}
+
+.navbar-2 button:hover {
+    transform: scale(1.05);
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+/** Left Panel **/
+
+
+.left-panel {
+    height: 670px;
+    width: 430px;
+    background-color: rgb(31, 31, 31);
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.panel-nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lib {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    padding: 20px 0px 0px 20px;
+}
+
+.panel-nav i {
+    padding: 20px 20px 0px 0px;
+    font-size: 1.15rem;
+    color: white;
+}
+
+/** Create Playlist **/ 
+
+.create-playlist {
+    background-color: #313131;
+    height: 140px;
+    margin: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+.create-playlist button:hover {
+    transform: scale(1.03);
+    border: none;
+}
+
+.para-1 {
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.para-2 {
+    font-size: 0.95rem;
+    margin-left: 15px;
+}
+
+.button-1 {
+    height: 35px;
+    width: 130px;
+    background-color: white;
+    color: #1f1f1f;
+    margin: 15px;
+    border: none;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.button-2 {
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    color: #1f1f1f;
+    margin: 15px;
+    border: none;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/** Left Panel Footer **/
+
+.left-footer {
+    height: 210px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.left-footer ul li a {
+    text-decoration: none;
+    color: #868282;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.left-footer ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.cookies:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+}
+
+.language {
+    height: 35px;
+    width: 100px;
+    border-radius: 500px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+/** MAIN SECTION **/
+
+.Main-container {
+    display: flex;
+}
+.main-section {
+    height: 670px;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    margin: 10px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-content {
+    height: 100%;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+}
+
+/** MAIN PANEL **/
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+.trending {
+    color: white;
+    font-weight: 700;
+    padding: 30px;
+    width: 350px;
+    font-size: 1.5rem;
+}
+
+.show-all {
+    padding: 40px 40px 0px 0px;
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/** Cards **/
+
+.trending-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.trending-cards {
+    height: 280px;
+    width: 200px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 5px;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-cards:hover {
+    background-color: #313131;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.trending-img {
+    position: relative;
+}
+
+.playlist-photo {
+    height: 160px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.play-button {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    background-color: #1db954;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 25px;
+    left: 123px;
+    opacity: 0;
+}
+
+.play-button i {
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+.trending-cards:hover .play-button{
+    opacity: 1;
+}
+
+.text-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.song-name {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.artist-name {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+
+/** FOOTER **/
+
+.main-footer {
+    height: 250px;
+    /* width: 100%; */
+    display: flex;
+    margin-top: 110px;
+    justify-content: space-between;
+}
+
+.main-footer ul p {
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.main-footer ul a {
+    text-decoration: none;
+    display: flex;
+    color: #b3b3b3;
+    margin-bottom: 10px;
+}
+
+.main-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.footer-comp {
+    font-weight: 100;
+    font-size: 0.95rem;
+}
+
+.handels {
+    display: flex;
+}
+
+.handels-instagram {
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: #313131 ;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.handels-twitter {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: #313131 ;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.handels-facebook {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: #313131 ;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.handels-instagram:hover {
+    background-color: #635e5e;
+}
+.handels-twitter:hover {
+    background-color: #635e5e;
+}
+.handels-facebook:hover {
+    background-color: #635e5e;
+}
+
+.main-footer-2 {
+    color: #868282;
+    height: 80px;
+    padding: 32px;
+}
+
+.last-footer {
+    height: 65px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+}
+
+.last-footer p {
+    margin-left: 15px;
+    color: white;
+    margin-top: 5px;
+}
+.preview {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.Signup {
+    font-size: 0.95rem;
+}
+
+.last-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+
+.last-button button {
+    height: 45px;
+    width: 150px;
+    border-radius: 500px;
+    background-color: white;
+    font-size: 0.95rem;
+    font-weight: 700;
+    border: none;
+
+}

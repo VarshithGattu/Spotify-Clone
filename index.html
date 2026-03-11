@@ -1,0 +1,494 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Spotify.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-1">
+            <div class="nav-logo"></div>
+            <div class="nav-home">
+                <div class="circle">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+            </div>
+            <div class="nav-search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input placeholder="What do you want to play">
+            </div>
+            <div class="navbar-2">
+                <a>Premium</a>
+                <a>Support</a>
+                <a>Download</a>
+                <a>|</a>
+                <a>Install app</a>
+                <a>Sign up</a>
+                <button class="nav-Login">Log in</button>
+            </div>
+        </div>
+    </header>
+
+<div class="Main-container">
+    <div class="left-panel">
+        <div class="panel-nav">
+            <p class="lib">Your Library</p>
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="create-playlist">
+            <p class="para-1">Create your first playlist</p>
+            <p class="para-2">It's easy, we'll help you</p>
+            <button class="button-1">Create playlist</button>
+        </div>
+        <div class="create-playlist">
+            <p class="para-1">Let's find some podcasts to follow</p>
+            <p class="para-2">We'll keep you updated on new episodes</p>
+            <button class="button-2">Browse Podcasts</button>
+        </div>
+        <div class="left-footer">
+            <ul>
+                <li>
+                    <a href="">Legal</a>
+                    <a href="">Safety & Privacy center</a>
+                    <a href="">Privacy policy</a>
+                    <a href="">Cookies</a>
+                </li>
+                <li>
+                    <a href="">About ads</a>
+                    <a href="">Accessibility</a>
+                </li>
+                <li>
+                    <a href="" class="cookies">Cookies</a>
+                </li>
+            </ul>
+            <button class="language"><i class="fa-solid fa-globe"></i>      English</button>
+        </div>
+    </div>
+    
+    
+    
+    <!-- MAIN HERO SECTION -->
+    
+    
+    <div class="main-section">
+        <div class="scroll-content">
+        <div class="heading">
+            <p class="trending">Trending songs</p>
+            <p class="show-all">Show all</p>
+        </div>
+        <div class="trending-wrap">
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Playlist1.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Sahiba</p>
+                    <p class="artist-name">Aditya Rikhari</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Playlist2.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Shoes Off</p>
+                    <p class="artist-name">Prem Dhillon, Iqbal, The kidd</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Playlist3.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Chikitu</p>
+                    <p class="artist-name">Anirudh Ravichander</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Playlist4.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Ehsaas</p>
+                    <p class="artist-name">Faheem Abdullah, Duha Shah, Hyder Dar</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Playlist5.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Dhun</p>
+                    <p class="artist-name">Arjit Singh, Mithun</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading" style="margin-top: 50px;">
+            <p class="trending">Popular artists</p>
+            <p class="show-all">Show all</p>
+        </div>
+        <div class="trending-wrap">
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Artist1.jpeg'); border-radius: 50%;"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Pritam</p>
+                    <p class="artist-name">Artist</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Artist2.jpeg'); border-radius: 50%;"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">A.R.Rahman</p>
+                    <p class="artist-name">Artist</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Artist3.jpeg'); border-radius: 50%;"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Arjit Singh</p>
+                    <p class="artist-name">Artist</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Artist4.jpeg'); border-radius: 50%;"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Atif Aslam</p>
+                    <p class="artist-name">Artist</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Artist5.jpeg'); border-radius: 50%;"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Anirudh Ravichander</p>
+                    <p class="artist-name">Artist</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading" style="margin-top: 50px;">
+            <p class="trending">Popular albums and singles</p>
+            <p class="show-all">Show all</p>
+        </div>
+        <div class="trending-wrap">
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Album1.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Aashiqui 2</p>
+                    <p class="artist-name">Mithoon, Ankit tiwari, Jeet Gannguli</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Album2.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Jab We Met</p>
+                    <p class="artist-name">Pritam, Irshad Kamil, Sandesh Shandilya</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Album3.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Jo Tum Mere Ho</p>
+                    <p class="artist-name">Anuv Jain</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Album4.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Yeh Jawaani Hai Deewani</p>
+                    <p class="artist-name">Pritam</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Album5.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="song-name">Sanam Teri Kasam</p>
+                    <p class="artist-name">Himesh Reshammiya, Sameer Aanjaan</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="heading" style="margin-top: 50px;">
+            <p class="trending">Popular radio</p>
+            <p class="show-all">Show all</p>
+        </div>
+        <div class="trending-wrap">
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Radio1.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">With Sachin-Jigar, Atif Aslam and more</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Radio2.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">With A.R.Rahman, Atif Aslam and more</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Radio3.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">With G.V.Prakash, Sid Sriram and more</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Radio4.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">With Shubh, JERRY, AP Dhillon and more</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Radio5.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">With Sidhu Moose Wala, Shubh and more</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="heading" style="margin-top: 50px;">
+            <p class="trending">India's Best</p>
+            <p class="show-all">Show all</p>
+        </div>
+        <div class="trending-wrap">
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Best1.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">Hottest Hindi music that India is listening to</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Best2.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">Hottest tracks from your favourite</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Best3.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">The finest set of Telugu music from the past 10 years</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Best4.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">The finest collection of Tamil music from the past 10 years</p>
+                </div>
+            </div>
+
+            <div class="trending-cards">
+                <div class="trending-img">
+                    <div class="playlist-photo" style="background-image: url('Best5.jpeg');"></div>
+                    <div class="play-button">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="artist-name">Most exciting artists from the Indian Indie scenes</p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!--             FOOTER                 -->
+
+        <div class="main-footer">
+            <ul>
+                <p>Company<p>
+                <a href="#" class="footer-comp">About</a>    
+                <a href="#" class="footer-comp">Jobs</a>    
+                <a href="#" class="footer-comp">For the Record</a>    
+            </ul>
+            <ul>	
+                <p>Communities</p>
+                <a href="#">For Artists</a>    
+                <a href="#">Developers</a>    
+                <a href="#">Advertising</a>    
+                <a href="#">Investors</a>    
+                <a href="#">Vendors</a>   
+            </ul>
+            <ul>	
+                <p>Useful links</p>
+                <a href="#">Support</a>
+                <a href="#">Free Mobile App</a>
+            </ul>
+            <ul>	
+                <p>Spotify Plans</p>
+                <a href="#">Premium Individual</a>
+                <a href="#">Premium Duo</a>
+                <a href="#">Premium Family</a>
+                <a href="#">Premium Student</a>
+                <a href="#">Spotify Free</a>
+            </ul>
+
+            <div class="handels">
+                <div class="handels-instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="handels-twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="handels-facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>   
+            </div>
+        </div>
+        <div class="main-footer-2">
+            © 2025 Spotify AB
+        </div>
+        </div>
+    </div>
+
+    
+</div>
+<div class="last-footer">
+    <div class="text">
+        <p class="preview">Preview of Spotify</p>
+        <p class="Signup">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+    </div>
+    <div class="last-button">
+        <button class="signUp">Sign Up Free</button>
+    </div>
+</div>     
+</body>
+</html>
